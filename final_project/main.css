@@ -1,0 +1,26 @@
+	@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+	.main-header {
+		font-family: "Arvo", serif;
+		font-size: 4em;
+		color: #fff6e0;
+		text-align: center;
+	}
+	.text {
+		font-family: "Arvo";
+		color: #fff6e0;
+	}
+
+	.nav-text {
+		font-family: "Arvo";
+		color: #7E8F7C;
+	}
+
+	.button-details {
+		background-color: #6ebd6e;
+		border-color: #6ebd6e;
+	}
+
+	body {
+		background-color: #7E8F7C;
+	}

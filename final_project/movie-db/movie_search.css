@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+body {
+		background-color: #7E8F7C;
+}
+
+.button-details {
+		background-color: #6ebd6e;
+		border-color: #6ebd6e;
+}
+
+.text {
+		font-family: "Arvo";
+		color: #fff6e0;
+}
+
+.results-container {
+	margin: 10px;
+	background-color: #FC0;
+}
+
+.result {
+	width: 200px;
+	height: 375px;
+	padding: 7.5px;
+	float: left;
+	text-align: center;	
+}
+
+.movie-img {
+	background-color: #000;
+	width: 185px;
+	position: relative;
+}
+
+.title {
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.release-date {
+	margin-top: 10px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.hoverInfo {
+	margin: 10px;
+	visibility: hidden;
+	width: 165px;
+	position: absolute;
+	top: 0;
+	color: #FFF;
+}
+
+.rating {
+	margin-bottom: 15px;
+	font-size: 14px;
+	margin-top: 15px;
+	
+}
+.description {
+	margin-top: 30px;
+	font-size: 12px;
+}
+
+.movie-img:hover .hoverInfo {
+	visibility: visible;
+}
+
+.movie-img:hover img {
+	opacity: 0.2;
+}
+
+.clearfloat {
+	clear: both;
+}
